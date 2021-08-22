@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAC</title>
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <main class="container mt-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-sm-12">
+                <img class="img-fluid" src="images/mac.png" alt="">
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                <p>Apple M1 chip with 8-core CPU with $ performance cores and 4 efficiency cores, 7-core GPU, and 16
+                    core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Keyboard
+                    - Us English</p>
+                <div class="mt-5">
+                    <h3>Memory</h3>
+                    <button id="memory-0" type="button" class="btn btn-outline-secondary">8GB unified memory</button>
+                    <button id="memory-1" type="button" class="btn btn-outline-secondary">16GB unified memory</button>
+                </div>
+                <div>
+                    <h3>Storage</h3>
+                    <button id="storage-0" type="button" class="btn btn-outline-secondary">256GB SSD storage</button>
+                    <button id="storage-1" type="button" class="btn btn-outline-secondary">512GB SSD storage</button>
+                    <button id="storage-2" type="button" class="btn btn-outline-secondary">1TB SSD storage</button>
+                </div>
+                <div>
+                    <h3>Choose your delivery option</h3>
+                    <button id="delivery-0" type="button" class="btn btn-outline-secondary">Friday, Aug 25 FREE Prime
+                        Delivery</button>
+                    <button id="delivery-1" type="button" class="btn btn-outline-secondary">Friday, Aug 21 Delivery
+                        charge $20</button>
+                </div>
+                <div class="mt-5">
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div>
+                                <h4>Best Price</h4>
+                            </div>
+                            <div>
+                                <h4>$<span id="best-price">1299</span></h4>
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div>
+                                <h4>Extra Memory Cost</h4>
+                            </div>
+                            <div>
+                                <h4>$<span id="extra-memory-cost">00</span></h4>
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div>
+                                <h4>Extra Storage Cost</h4>
+                            </div>
+                            <div>
+                                <h4>$<span id="extra-storage-cost">00</span></h4>
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div>
+                                <h4>Delivery charge</h4>
+                            </div>
+                            <div>
+                                <h4>$<span id="delivery charge">00</span></h4>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+
+                            <div>
+                                <h4>Total Price</h4>
+                            </div>
+                            <div>
+                                <h4>$<span id="total-price">1299</span></h4>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <hr>
+                    <h5>Add Pomo code</h5>
+                    <div class="input-group mb-3">
+                        <input type="text" id="pomo" class="form-control" placeholder="add your pomo code">
+                        <button class="btn btn-outline-secondary" type="button" id="pomo-btn">Apply</button>
+                    </div>
+                </div>
+            </div>
+            <h3 class="text-center">Total:$<span id="total">1299</span> </h3>
+    </main>
+    <!-- js file -->
+    <script src="main.js"></script>
+</body>
+
+</html>
